@@ -1,4 +1,4 @@
-﻿USE CllegeDB;
+﻿USE CollegeDB;
 GO
 
 SELECT s.name AS student_name,
