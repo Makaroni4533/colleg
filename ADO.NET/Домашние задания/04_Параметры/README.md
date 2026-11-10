@@ -72,7 +72,7 @@ SqlParameter задаёт имя, SqlDbType, размер, значение, а 
 |---|---|---|---|
 | Поиск товара | @id | Int / int | 1 |
 | Изменение цены | @id; @price | Int / int; Decimal(10,2) / decimal | 1; 250.00m |
-| Добавление клиента | @full_name | NVarChar(200) / string | Александр Мингазов |
+| Добавление клиента | @full_name | NVarChar(200) / string | Минченко Макар Евгеньевич |
 | Добавление клиента | @phone | NVarChar(30) / string или DBNull.Value | +79001234567 |
 | Добавление клиента | @email | NVarChar(254) / string или DBNull.Value | student@example.test |
 | Удаление клиента | @id | Int / int | ID добавленного клиента |
